@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+	<p style="color: #f00;font-size: 30px; margin: 100px auto; width: 100%;text-align: center;">注册成功！</p>
+	<p id="time" style="float: left;margin-left: 200px;">3s后自动登录...</p><a style="float: left;margin-top: 15px;" href="signin.html">手动登录</a>
+</body>
+</html>
+<script>
+	var i=3
+	var t = document.getElementById("time")
+	var timer= setInterval(function(){
+		t.innerHTML = i+"s后自动登录..."
+		i--
+		if(i==-1){
+			window.location.href="../index.html"
+		}
+	},1000)
+	
+</script>
