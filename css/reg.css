@@ -1,0 +1,70 @@
+body,ul,h2,input,a,ol,p,li,form{padding: 0;margin: 0;}
+ul{list-style: none;}
+img{display: block;}
+body{font-family: "微软雅黑";font-size: 14px;}
+
+a{text-decoration: none;}
+
+.w{width: 1150px;margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}
+
+#header{border-bottom: 2px solid #000;height: 66px;}
+#header>.w>a img{margin-left: 80px;margin-top: 13px;}
+#header>.w>ul.r>li{ padding: 10px;margin-top: 13px;}
+#header>.w>ul.r>li img{margin-top: 3px;margin-right: 5px;}
+#header>.w>ul.r>li a{color: #000;}
+#header>.w>ul.r>li.d{padding: 0;overflow: hidden;}
+#header>.w>ul.r>li.d>a{padding:10px;}
+#header>.w>ul.r>li.d:hover>a{background: #ccc;}
+#header>.w .more{position: absolute;top:50px;right:421px;opacity: 0;display: none;}
+#header>.w .more li{width: 84px;height: 39px;text-align: center;line-height: 39px;background: #ccc;border-top: 1px solid #bbb;}
+
+#denglu{ height: 652px;}
+#denglu>img{margin:230px 163px ;}
+#denglu>form.l{ margin-top: 127px;padding-left: 84px;border-left: 1px solid #ccc;width: 302px;position: relative;}
+#denglu>.l select{cursor:pointer;outline:none;width: 128px;height:45px;padding: 4px;color: #c9c9c9;font-size:18px ;border: 1px solid #ccc;}
+#denglu>.l span.num{width: 58px;height: 43px;border: 1px solid #ccc;margin-top: 15px;font-size: 18px;line-height: 43px;text-align: center;color: #c9c9c9;border-right: 0;}
+#denglu>.l .user{width: 209px;height: 45px;border: 1px solid #ccc;margin-top: 15px;padding-left: 10px;font-size: 18px;outline: none;}
+#denglu>.l .yz{width: 160px;height: 43px;margin-top: 15px;padding-left: 10px;font-size: 18px;outline: none;border: 1px solid #ccc;}
+#denglu>.l .yzmn{text-align:center;line-height:41px;height: 41px;width: 97px;border: 1px solid #ccc;margin-left: 10px;margin-top: 15px;cursor: pointer;}
+#denglu>.l .yzms{height: 41px;width: 97px;border: 1px solid #ccc;margin-left: 10px;margin-top: 15px;background: #555;color: #fff;font-size: 13px;text-align: center;line-height: 41px;cursor: pointer;}
+#denglu>.l .passw{width: 268px;height: 43px;margin-top: 15px;padding-left: 10px;font-size: 18px;outline: none;border: 1px solid #ccc;}
+#denglu>.l .pd{width:30px;height: 20px;background: #e8e8e8;color:#ccc;text-align: center;line-height: 20px;margin-right: 5px;margin-top: 10px;}
+#denglu>.l .fir{margin-right: 35px;}
+#denglu>.l label{margin-top: 45px;color: #ccc;}
+#denglu>.l a.l{margin-top: 15px; color: #f00;text-decoration: underline;}
+#denglu>.l .zc{width: 268px;height: 43px;margin-top: 15px;background: #555;border: 0;font-size: 20px;color: #fff;cursor: pointer;}
+#denglu>.l .bot{margin-top: 15px;color: #ccc;}
+#denglu>.l .bot a{color: #f00;text-decoration: underline;}
+#denglu>.l .tishi{background: url(../img/tubiao.png);width: 140px;height: 58px;position: absolute;right:-122px;top:235px;padding: 10px;display: none;margin-right: -3px;}
+#denglu>.l .tishi p{font-size: 12px;color: #ccc;width: 140px;line-height: 20px;overflow: hidden;}
+#denglu>.l .tishi p span.l{width: 15px;height: 15px;background: url(../img/tubiao.png) -63px -111px no-repeat;margin-top: 2px;}
+#denglu>.l .tishi p span{float: left;width:125px ;}
+#denglu>.l .usertip,.yzmntip,.yzmstip,.passwtip{display: none;}
+#denglu>.l .usertip1{ height: 32px;background:#ffebeb ;border: 1px solid #ffd0d1;position: absolute;text-align: center;line-height: 32px;color: #f00;top: 19px;left:135px;padding:0 10px ;}
+#denglu>.l .usertip2{width: 20px;height: 20px;background: url(../img/tubiao.png) -111px -111px no-repeat;position: absolute;top: 50px;right: 195px;}
+#denglu>.l .yzmntip1{ height: 32px;background:#ffebeb ;border: 1px solid #ffd0d1;position: absolute;text-align: center;line-height: 32px;color: #f00;top:79px;left:83px;padding:0 10px ;}
+#denglu>.l .yzmntip2{width: 20px;height: 20px;background: url(../img/tubiao.png) -111px -111px no-repeat;position: absolute;top: 110px;right:255px;}
+#denglu>.l .yzmstip1{ height: 32px;background:#ffebeb ;border: 1px solid #ffd0d1;position: absolute;text-align: center;line-height: 32px;color: #f00;top:137px;left:83px;padding:0 10px ;}
+#denglu>.l .yzmstip2{width: 20px;height: 20px;background: url(../img/tubiao.png) -111px -111px no-repeat;position: absolute;top: 167px;right:255px;}
+#denglu>.l .passwtip1{ height: 32px;background:#ffebeb ;border: 1px solid #ffd0d1;position: absolute;text-align: center;line-height: 32px;color: #f00;top:195px;left:83px;padding:0 10px ;}
+#denglu>.l .passwtip2{width: 20px;height: 20px;background: url(../img/tubiao.png) -111px -111px no-repeat;position: absolute;top: 225px;right:255px;}
+/*-----------------bottom--------------------*/
+#bottom{height: 295px;background: #000;}
+#bottom .w .top{height: 64px;line-height: 64px;color: #fff; border-bottom: 1px solid #262626;position: relative;}
+#bottom .w .top p{margin-right: 60px;}
+#bottom .w .top p span{color: #f00;}
+#bottom .w .top img{margin-top: 20px;margin-right: 10px;}
+#bottom .w .top input{width: 238px;height: 32px;border: 1px solid #262626; background: #000;color: #262626;padding-left: 10px;margin-top: 15px;outline: none;}
+#bottom .w .top img.pa{position: absolute;right: 0;top:5px ;}
+#bottom .w ul{height: 144px;padding-top: 20px;}
+#bottom .w a{color: #666;}
+#bottom .w ul.l{width: 177px}
+#bottom .w ul li a:hover{text-decoration: underline;}
+#bottom .w ul li{line-height: 24px;}
+#bottom .w ul li.fir{color: #fff;}
+#bottom .w ol{margin-left: 20px;overflow: hidden;}
+#bottom .w ol li a{color: #666; padding: 0 10px; border-right: 1px solid #666;}
+#bottom .w ol li.last a{border-right: 0;}
+#bottom .w p{color: #666; margin-left:30px ; }
