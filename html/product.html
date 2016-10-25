@@ -1,403 +1,408 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>YOHO!BUY有货,年轻人潮流购物中心,中国最大的潮流商品购物网站。</title>
-<link rel="icon" href="../img/logoicon.jpg" type="image/x-icon"/>
-<link rel="stylesheet" type="text/css" href="../css/product.css" />
+    <meta charset="UTF-8">
+    <title>YOHO!BUY有货,年轻人潮流购物中心,中国最大的潮流商品购物网站。</title>
+    <link rel="icon" href="../img/logoicon.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="../css/product.css"/>
 </head>
 <body>
 <!---------top--------->
 <div id="top">
-	<div class="w">
-		<div class="topbtn l">
-			<p class="l"><span> ≡ </span> YOHO!BUY 有货 </p>
-			<ul class="l">
-				<li><a href="#">YOHO!</a></li>
-				<li><a href="#">YOHO!BOYS</a></li>
-				<li><a href="#">YOHO!GIRLS</a></li>
-				<li><a href="#">YOHO!SHOW</a></li>
-				<li><a href="#">YO'HOOD</a></li>
-			</ul>
-		</div>
-		<ul class="r">
-			<li class="l" id="topli">Hi~ [<a href="signin.html">请登录</a>] [<a href="reg.html">免费注册</a>]</li>
-			<li class="l a d" id="my">
-				<a href="signin.html">MY有货&or;</a>
-			</li>
-			<li class="l a"><a href="#"><img src="../img/2.jpg"/> 我的订单</a></li>
-			<li class="l a"><a href="#"><img src="../img/3.jpg"/> 我的收藏</a></li>
-			<li class="l a"><a href="#"><img src="../img/4.jpg"/> 消息</a></li>
-			<li class="l b">
-				<a href="#"><img src="../img/5.jpg"/> 手机版</a>
-				<div>
-					<img src="../img/qr-app.png">
-					<h3>扫描二维码</h3>
-					<h3>下载有货手机客户端</h3>
-					<a href="//www.yohobuy.com/download/app">更多客户端下载</a>
-				</div>
-			</li>
-		</ul>
-	</div>
+    <div class="w">
+        <div class="topbtn l">
+            <p class="l"><span> ≡ </span> YOHO!BUY 有货 </p>
+            <ul class="l">
+                <li><a href="#">YOHO!</a></li>
+                <li><a href="#">YOHO!BOYS</a></li>
+                <li><a href="#">YOHO!GIRLS</a></li>
+                <li><a href="#">YOHO!SHOW</a></li>
+                <li><a href="#">YO'HOOD</a></li>
+            </ul>
+        </div>
+        <ul class="r">
+            <li class="l" id="topli">Hi~ [<a href="signin.html">请登录</a>] [<a href="reg.html">免费注册</a>]</li>
+            <li class="l a d" id="my">
+                <a href="signin.html">MY有货&or;</a>
+            </li>
+            <li class="l a"><a href="#"><img src="../img/2.jpg"/> 我的订单</a></li>
+            <li class="l a"><a href="#"><img src="../img/3.jpg"/> 我的收藏</a></li>
+            <li class="l a"><a href="#"><img src="../img/4.jpg"/> 消息</a></li>
+            <li class="l b">
+                <a href="#"><img src="../img/5.jpg"/> 手机版</a>
+                <div>
+                    <img src="../img/qr-app.png">
+                    <h3>扫描二维码</h3>
+                    <h3>下载有货手机客户端</h3>
+                    <a href="//www.yohobuy.com/download/app">更多客户端下载</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>
 <!--------nav----------->
 <div id="nav">
-	<div class="w">
-		<ul class="l">
-			<li class="l selected fir xxk"><a href="../index.html"><p>男生</p>BOYS</a></li>
-			<li class="l xxk"><a href="girl.html"><p>女生</p>GIRLS</a></li>
-			<li class="l xxk"><a href="#"><p>潮童</p>KIDS</a></li>
-			<li class="l xxk"><a href="#"><p>创意生活</p>LIFE STYLE</a></li>
-		</ul>
-		<h1 class="l"><a href="../index.html"><img src="../img/logo0.jpg" /></a></h1>
-		<p class="l">
-			<input class="l" type="text" id="oText"/>
-			<span class="r" id="tosearch"><img src="../img/search.jpg" /></span>
-		</p>
-		<ol id="oDiv" style="cursor:pointer;padding-left:10px;position: absolute;width: 232px;height: 200px;border: 1px solid #ccc;background: #C1C1C1;top:77px;left: 760px;z-index: 19;display: none;"></ol>			
-		<img src="../img/cart.jpg" class="r" onclick="tocarts()"/>
-		<div class="num" id="cartnum"> 0 </div>
-	</div>
-	<div class="bottom">
-		<ol class="w" id="navol">
-			<li class="l first"><a href="list.html">新品到看</a></li>
-			<li class="l"><a href="#">品牌一览</a></li>
-			<li class="l">
-				<a href="#">服饰</a>
-				<div class="sedmenu" style="display: none;">
-					<div class="w fs">
-						<ul class="l one">
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">上装</a></li>
-							<li><a href="#" style="color: #f00;">衬衫</a></li>
-							<li><a href="#" style="color: #f00;">卫衣</a></li>
-							<li><a href="#">POLO</a></li>
-							<li><a href="#">T恤</a></li>
-							<li><a href="#">毛衣针织</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">下装</a></li>
-							<li><a href="#" style="color: #f00;">休闲裤</a></li>
-							<li><a href="#" style="color: #f00;">牛仔裤</a></li>
-						</ul>
-						<ul class="l two">
-							<li><a href="#">短裤</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">经典款型</a></li>
-							<li><a href="#" style="color: #f00;">圆领套头卫衣</a></li>
-							<li><a href="#">学院风衬衫</a></li>
-							<li><a href="#">街头风T恤</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门品牌</a></li>
-							<li><a href="#">YEZAC</a></li>
-							<li><a href="#">THETHING</a></li>
-						</ul>
-						<ul class="l three">
-							<li><a href="#" style="color: #f00;">EVD</a></li>
-							<li><a href="#">Shapeless</a></li>
-							<li><a href="#">ABLE JEANS</a></li>
-							<li><a href="#" style="color: #f00;">SYS.tag</a></li>
-							<li><a href="#">VISIBLE</a></li>
-							<li><a href="#" style="color: #f00;">Zippo</a></li>
-							<li><a href="#">Genanx</a></li>
-							<li><a href="#">元气补给 ENERGY SUPPLY</a></li>
-						</ul>
-						<img class="l" src="../img/fs.jpg" />
-						<p class="l">IN季新品 全面开售</p>
-					</div>
-				</div>
-			</li>
-			<li class="l">
-				<a href="#">鞋履</a>
-				<div class="sedmenu" style="display: none;">
-					<div class="w xl">
-						<ul class="l one">
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">鞋履</a></li>
-							<li><a href="#" style="color: #f00;">休闲/运动鞋</a></li>
-							<li><a href="#">凉鞋/拖鞋</a></li>
-							<li><a href="#">时装鞋</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门款型</a></li>
-							<li><a href="#" style="color: #f00;">复古跑鞋</a></li>
-							<li><a href="#">帆布鞋</a></li>
-							<li><a href="#">雕花皮鞋</a></li>
-							<li><a href="#">户外靴</a></li>
-						</ul>
-						<ul class="l two">
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门品牌</a></li>
-							<li><a href="#">SAUCONY</a></li>
-							<li><a href="#">PALLADIUM</a></li>
-							<li><a href="#" style="color: #f00;">adidas Originals</a></li>
-							<li><a href="#">PUMA</a></li>
-							<li><a href="#">LACOSTE</a></li>
-							<li><a href="#">ERUSROF</a></li>
-							<li><a href="#" style="color: #f00;">VANS</a></li>
-							<li><a href="#">GAWS FOOT</a></li>
-						</ul>
-						<ul class="l three">
-							<li><a href="#">Dr.Martens</a></li>
-							<li><a href="#">DC</a></li>
-							<li><a href="#">Diadora</a></li>
-							<li><a href="#">Onitsuka Tiger</a></li>
-							<li><a href="#">HEYDAY</a></li>
-						</ul>
-						<img class="l" src="../img/xl.jpg" />
-						<p class="l">人气鞋靴</p>
-					</div>
-				</div>	
-			</li>
-			<li class="l">
-				<a href="#">包袋</a>
-				<div class="sedmenu"  style="display: none;">
-					<div class="w bd">
-						<ul class="l one">
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">包</a></li>
-							<li><a href="#" style="color: #f00;">双肩包</a></li>
-							<li><a href="#">手拎包/单肩包</a></li>
-							<li><a href="#">电脑包</a></li>
-							<li><a href="#">钱包/卡包/手拿包</a></li>
-							<li><a href="#">腰包</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门款型</a></li>
-							<li><a href="#" style="color: #f00;">帆布背包</a></li>
-							<li><a href="#">拼色背包</a></li>
-						</ul>
-						<ul class="l two">
-							<li><a href="#">街头款单肩包</a></li>
-							<li><a href="#">多口袋双肩包</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门品牌</a></li>
-							<li><a href="#">OUTDOOR</a></li>
-							<li><a href="#">DC</a></li>
-							<li><a href="#">Jansport</a></li>
-							<li><a href="#" style="color: #f00;">Herschel Supply</a></li>
-							<li><a href="#">thecoopidea</a></li>
-						</ul>
-						<ul class="l three">
-							<li><a href="#">Ngasan Chu</a></li>
-							<li><a href="#">COMBACK</a></li>
-							<li><a href="#">Epiphqny</a></li>
-							<li><a href="#">K-swiss</a></li>
-							<li><a href="#">BURTON</a></li>
-							<li><a href="#">立正LETDREAM</a></li>
-							<li><a href="#">DEEP</a></li>
-						</ul>
-						<img class="l" src="../img/bd.jpg" />
-						<p class="l">出街必备包袋集合</p>
-					</div>
-				</div>	
-			</li>
-			<li class="l psqt">
-				<img src="../img/6.jpg" />
-				<a href="#">配饰 · 其他</a>
-				<div class="sedmenu" style="display: none;">
-					<div class="w ps">
-						<ul class="l one">
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">服配</a></li>
-							<li><a href="#" style="color: #f00;">太阳镜/眼镜</a></li>
-							<li><a href="#">帽子</a></li>
-							<li><a href="#">袜子</a></li>
-							<li><a href="#">手表</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">首饰</a></li>
-							<li><a href="#" style="color: #f00;">戒指</a></li>
-							<li><a href="#">耳钉</a></li>
-							<li><a href="#">手链</a></li>
-						</ul>
-						<ul class="l two">
-							<li><a href="#">项链</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">配饰</a></li>
-							<li><a href="#">皮带/腰带</a></li>
-							<li><a href="#">胸针/胸章</a></li>
-							<li><a href="#" style="color: #f00;">手机链/钥匙扣</a></li>
-							<li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门品牌</a></li>
-							<li><a href="#">SLOW</a></li>
-							<li><a href="#">Natkiel</a></li>
-							<li><a href="#">A.Dorad</a></li>
-						</ul>
-						<ul class="l three">
-							<li><a href="#">RASEN family</a></li>
-							<li><a href="#" style="color: #f00;">造物</a></li>
-							<li><a href="#">Bluekiki</a></li>
-							<li><a href="#" style="color: #f00;">ME&ZENA</a></li>
-							<li><a href="#">A.time 时间廊</a></li>
-							<li><a href="#">黑头BLACKHEAD</a></li>
-							<li><a href="#">Mishka</a></li>
-							<li><a href="#">zippo</a></li>
-							<li><a href="#">DUNKELVOLK</a></li>
-						</ul>
-						<img class="l" src="../img/ps.jpg" />
-						<p class="l">热门小物优选</p>
-					</div>
-				</div>
-			</li>
-			<li class="l"><a href="#">领券中心</a></li>
-			<li class="l"><a href="#">逛</a></li>
-			<li class="l"><a href="#">SALE</a></li>
-		</ol>
-		
-	</div>
+    <div class="w">
+        <ul class="l">
+            <li class="l selected fir xxk"><a href="../index.html"><p>男生</p>BOYS</a></li>
+            <li class="l xxk"><a href="girl.html"><p>女生</p>GIRLS</a></li>
+            <li class="l xxk"><a href="#"><p>潮童</p>KIDS</a></li>
+            <li class="l xxk"><a href="#"><p>创意生活</p>LIFE STYLE</a></li>
+        </ul>
+        <h1 class="l"><a href="../index.html"><img src="../img/logo0.jpg"/></a></h1>
+        <p class="l">
+            <input class="l" type="text" id="oText"/>
+            <span class="r" id="tosearch"><img src="../img/search.jpg"/></span>
+        </p>
+        <ol id="oDiv"
+            style="cursor:pointer;padding-left:10px;position: absolute;width: 232px;height: 200px;border: 1px solid #ccc;background: #C1C1C1;top:77px;left: 760px;z-index: 19;display: none;"></ol>
+        <img src="../img/cart.jpg" class="r" onclick="tocarts()"/>
+        <div class="num" id="cartnum"> 0</div>
+    </div>
+    <div class="bottom">
+        <ol class="w" id="navol">
+            <li class="l first"><a href="list.html">新品到看</a></li>
+            <li class="l"><a href="#">品牌一览</a></li>
+            <li class="l">
+                <a href="#">服饰</a>
+                <div class="sedmenu" style="display: none;">
+                    <div class="w fs">
+                        <ul class="l one">
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">上装</a></li>
+                            <li><a href="#" style="color: #f00;">衬衫</a></li>
+                            <li><a href="#" style="color: #f00;">卫衣</a></li>
+                            <li><a href="#">POLO</a></li>
+                            <li><a href="#">T恤</a></li>
+                            <li><a href="#">毛衣针织</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">下装</a></li>
+                            <li><a href="#" style="color: #f00;">休闲裤</a></li>
+                            <li><a href="#" style="color: #f00;">牛仔裤</a></li>
+                        </ul>
+                        <ul class="l two">
+                            <li><a href="#">短裤</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">经典款型</a></li>
+                            <li><a href="#" style="color: #f00;">圆领套头卫衣</a></li>
+                            <li><a href="#">学院风衬衫</a></li>
+                            <li><a href="#">街头风T恤</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门品牌</a></li>
+                            <li><a href="#">YEZAC</a></li>
+                            <li><a href="#">THETHING</a></li>
+                        </ul>
+                        <ul class="l three">
+                            <li><a href="#" style="color: #f00;">EVD</a></li>
+                            <li><a href="#">Shapeless</a></li>
+                            <li><a href="#">ABLE JEANS</a></li>
+                            <li><a href="#" style="color: #f00;">SYS.tag</a></li>
+                            <li><a href="#">VISIBLE</a></li>
+                            <li><a href="#" style="color: #f00;">Zippo</a></li>
+                            <li><a href="#">Genanx</a></li>
+                            <li><a href="#">元气补给 ENERGY SUPPLY</a></li>
+                        </ul>
+                        <img class="l" src="../img/fs.jpg"/>
+                        <p class="l">IN季新品 全面开售</p>
+                    </div>
+                </div>
+            </li>
+            <li class="l">
+                <a href="#">鞋履</a>
+                <div class="sedmenu" style="display: none;">
+                    <div class="w xl">
+                        <ul class="l one">
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">鞋履</a></li>
+                            <li><a href="#" style="color: #f00;">休闲/运动鞋</a></li>
+                            <li><a href="#">凉鞋/拖鞋</a></li>
+                            <li><a href="#">时装鞋</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门款型</a></li>
+                            <li><a href="#" style="color: #f00;">复古跑鞋</a></li>
+                            <li><a href="#">帆布鞋</a></li>
+                            <li><a href="#">雕花皮鞋</a></li>
+                            <li><a href="#">户外靴</a></li>
+                        </ul>
+                        <ul class="l two">
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门品牌</a></li>
+                            <li><a href="#">SAUCONY</a></li>
+                            <li><a href="#">PALLADIUM</a></li>
+                            <li><a href="#" style="color: #f00;">adidas Originals</a></li>
+                            <li><a href="#">PUMA</a></li>
+                            <li><a href="#">LACOSTE</a></li>
+                            <li><a href="#">ERUSROF</a></li>
+                            <li><a href="#" style="color: #f00;">VANS</a></li>
+                            <li><a href="#">GAWS FOOT</a></li>
+                        </ul>
+                        <ul class="l three">
+                            <li><a href="#">Dr.Martens</a></li>
+                            <li><a href="#">DC</a></li>
+                            <li><a href="#">Diadora</a></li>
+                            <li><a href="#">Onitsuka Tiger</a></li>
+                            <li><a href="#">HEYDAY</a></li>
+                        </ul>
+                        <img class="l" src="../img/xl.jpg"/>
+                        <p class="l">人气鞋靴</p>
+                    </div>
+                </div>
+            </li>
+            <li class="l">
+                <a href="#">包袋</a>
+                <div class="sedmenu" style="display: none;">
+                    <div class="w bd">
+                        <ul class="l one">
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">包</a></li>
+                            <li><a href="#" style="color: #f00;">双肩包</a></li>
+                            <li><a href="#">手拎包/单肩包</a></li>
+                            <li><a href="#">电脑包</a></li>
+                            <li><a href="#">钱包/卡包/手拿包</a></li>
+                            <li><a href="#">腰包</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门款型</a></li>
+                            <li><a href="#" style="color: #f00;">帆布背包</a></li>
+                            <li><a href="#">拼色背包</a></li>
+                        </ul>
+                        <ul class="l two">
+                            <li><a href="#">街头款单肩包</a></li>
+                            <li><a href="#">多口袋双肩包</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门品牌</a></li>
+                            <li><a href="#">OUTDOOR</a></li>
+                            <li><a href="#">DC</a></li>
+                            <li><a href="#">Jansport</a></li>
+                            <li><a href="#" style="color: #f00;">Herschel Supply</a></li>
+                            <li><a href="#">thecoopidea</a></li>
+                        </ul>
+                        <ul class="l three">
+                            <li><a href="#">Ngasan Chu</a></li>
+                            <li><a href="#">COMBACK</a></li>
+                            <li><a href="#">Epiphqny</a></li>
+                            <li><a href="#">K-swiss</a></li>
+                            <li><a href="#">BURTON</a></li>
+                            <li><a href="#">立正LETDREAM</a></li>
+                            <li><a href="#">DEEP</a></li>
+                        </ul>
+                        <img class="l" src="../img/bd.jpg"/>
+                        <p class="l">出街必备包袋集合</p>
+                    </div>
+                </div>
+            </li>
+            <li class="l psqt">
+                <img src="../img/6.jpg"/>
+                <a href="#">配饰 · 其他</a>
+                <div class="sedmenu" style="display: none;">
+                    <div class="w ps">
+                        <ul class="l one">
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">服配</a></li>
+                            <li><a href="#" style="color: #f00;">太阳镜/眼镜</a></li>
+                            <li><a href="#">帽子</a></li>
+                            <li><a href="#">袜子</a></li>
+                            <li><a href="#">手表</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">首饰</a></li>
+                            <li><a href="#" style="color: #f00;">戒指</a></li>
+                            <li><a href="#">耳钉</a></li>
+                            <li><a href="#">手链</a></li>
+                        </ul>
+                        <ul class="l two">
+                            <li><a href="#">项链</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">配饰</a></li>
+                            <li><a href="#">皮带/腰带</a></li>
+                            <li><a href="#">胸针/胸章</a></li>
+                            <li><a href="#" style="color: #f00;">手机链/钥匙扣</a></li>
+                            <li style="border-bottom: 1px solid #000"><a href="#" style="color: #000;">热门品牌</a></li>
+                            <li><a href="#">SLOW</a></li>
+                            <li><a href="#">Natkiel</a></li>
+                            <li><a href="#">A.Dorad</a></li>
+                        </ul>
+                        <ul class="l three">
+                            <li><a href="#">RASEN family</a></li>
+                            <li><a href="#" style="color: #f00;">造物</a></li>
+                            <li><a href="#">Bluekiki</a></li>
+                            <li><a href="#" style="color: #f00;">ME&ZENA</a></li>
+                            <li><a href="#">A.time 时间廊</a></li>
+                            <li><a href="#">黑头BLACKHEAD</a></li>
+                            <li><a href="#">Mishka</a></li>
+                            <li><a href="#">zippo</a></li>
+                            <li><a href="#">DUNKELVOLK</a></li>
+                        </ul>
+                        <img class="l" src="../img/ps.jpg"/>
+                        <p class="l">热门小物优选</p>
+                    </div>
+                </div>
+            </li>
+            <li class="l"><a href="#">领券中心</a></li>
+            <li class="l"><a href="#">逛</a></li>
+            <li class="l"><a href="#">SALE</a></li>
+        </ol>
+
+    </div>
 </div>
 
 <!-------------------------------------------->
 <div id="all" class="w">
-	<p>BOYS首页>服配>配饰></p>
-	<dl>
-		<dt class="l">
-			<div>
-				<img class="l" />	
-				<div id="lj" style="background: #000;opacity: .3;width: 50px;height: 50px;position: absolute;left:218px;top:225px;display: none;cursor: pointer;"></div>
-			</div>		
-			<img class="r"/>
-			<img class="r"/>
-			<div id="fdj" style="position: absolute;width: 300px;height: 300px;top:225px;left:46%;display: none;"></div>
-		</dt>
-		<dd class="l">
-			<div class="t">
-				<h2></h2>
-				<p class="p0"></p>
-				<p class="p1"></p>
-				<p class="p2"></p>
-			</div>
-			<div class="b">
-				<div class="p0 ">
-					<div class="l">选颜色：</div>					
-				</div>
-				<p class="p1">选尺码：<span>M</span><span>L</span><span>XL</span></p>
-				<p class="p2">
-					<span class="l">选数量：</span>
-					<span class="l num" id="spnum">1</span>
-					<span class="l" style="width:20px;line-height: 15px;">
-						<span class="xz l">&and;</span><span class="xz l">&or;</span></p>
-					</span>
-				<button class="l addcart">
-					<img src="../img/carts.jpg" />
-					添加到购物车
-				</button>
-				<button class="l g">
-					<img src="../img/heart.jpg" />
-					收藏商品
-				</button>
-				<p class="botm l" >
-					<span class="l">分享商品：</span >
-					<i class="l a"></i>
-					<i class="l b"></i>
-					<i class="l c"></i>
-					<i class="l d"></i>
-					<i class="l e"></i>
-					<i class="l f"></i>
-				</p>
-			</div>
-		</dd>
-	</dl>
-	<ul class="sp w">
-		<li class="l selected a"><span>商品信息DESRCRIPTION</span><a></a></li>
-		<li class="l"><a></a><span>材质洗涤MATERIALS</span></li>
-	</ul>
-	<p class="w spb"></p>
-	<ul class="cm w">
-		<li><span>尺码信息SIZE INFO</span></li>
-	</ul>
-	<p class="cmb w"></p>
-	<ul class="xq w">
-		<li><span>商品详情 DETAILS</span></li>
-	</ul>
-	<p class="xqb w"></p>
-	<ul class="pj w">
-		<li class="l selected a"><span>顾客咨询(0)</span><a></a></li>
-		<li class="l"><a></a><span>购买评价(0)</span></li>
-	</ul>
-	<div class="w pjb selected">
-		<h3>顾客咨询（<span>0</span>）</h3>
-		<div></div>
-		<button value="zx" class="pjan"><img src="../img/pj.jpg" />我要咨询</button>
-	</div>
-	<div class="w pjb">
-		<h3>顾客评价（<span>0</span>）</h3>
-		<div></div>
-		<button value="pj" class="pjan"><img src="../img/pj.jpg" />我要评价</button>
-	</div>
-	<h5 class="w"><img src="../img/fw.jpg" /> 售后服务 ▼</h5>
-	<div class="foter w"></div>
-	<ul class="zj">
-		<li><span>最近浏览 DETAILS</span></li>
-	</ul>
-	<div class="pjtext">
-		<p>商品评价：</p>
-		<textarea rows="10" cols="60" style="resize: none;"></textarea>
-		<button class="l left">提交</button>
-		<button class="l">取消</button>
-	</div>
+    <p>BOYS首页>服配>配饰></p>
+    <dl>
+        <dt class="l">
+        <div>
+            <img class="l"/>
+            <div id="lj"
+                 style="background: #000;opacity: .3;width: 50px;height: 50px;position: absolute;left:218px;top:225px;display: none;cursor: pointer;"></div>
+        </div>
+        <img class="r"/>
+        <img class="r"/>
+        <div id="fdj" style="position: absolute;width: 300px;height: 300px;top:225px;left:46%;display: none;"></div>
+        </dt>
+        <dd class="l">
+            <div class="t">
+                <h2></h2>
+                <p class="p0"></p>
+                <p class="p1"></p>
+                <p class="p2"></p>
+            </div>
+            <div class="b">
+                <div class="p0 ">
+                    <div class="l">选颜色：</div>
+                </div>
+                <p class="p1">选尺码：<span>M</span><span>L</span><span>XL</span></p>
+                <p class="p2">
+                    <span class="l">选数量：</span>
+                    <span class="l num" id="spnum">1</span>
+                    <span class="l" style="width:20px;line-height: 15px;">
+						<span class="xz l">&and;</span>
+                        <span class="xz l">&or;</span>
+                     </span>
+                </p>
+
+                <button class="l addcart">
+                    <img src="../img/carts.jpg"/>
+                    添加到购物车
+                </button>
+                <button class="l g">
+                    <img src="../img/heart.jpg"/>
+                    收藏商品
+                </button>
+                <p class="botm l">
+                    <span class="l">分享商品：</span>
+                    <i class="l a"></i>
+                    <i class="l b"></i>
+                    <i class="l c"></i>
+                    <i class="l d"></i>
+                    <i class="l e"></i>
+                    <i class="l f"></i>
+                </p>
+            </div>
+        </dd>
+    </dl>
+    <ul class="sp w">
+        <li class="l selected a"><span>商品信息DESRCRIPTION</span><a></a></li>
+        <li class="l"><a></a><span>材质洗涤MATERIALS</span></li>
+    </ul>
+    <p class="w spb"></p>
+    <ul class="cm w">
+        <li><span>尺码信息SIZE INFO</span></li>
+    </ul>
+    <p class="cmb w"></p>
+    <ul class="xq w">
+        <li><span>商品详情 DETAILS</span></li>
+    </ul>
+    <p class="xqb w"></p>
+    <ul class="pj w">
+        <li class="l selected a"><span>顾客咨询(0)</span><a></a></li>
+        <li class="l"><a></a><span>购买评价(0)</span></li>
+    </ul>
+    <div class="w pjb selected">
+        <h3>顾客咨询（<span>0</span>）</h3>
+        <div></div>
+        <button value="zx" class="pjan"><img src="../img/pj.jpg"/>我要咨询</button>
+    </div>
+    <div class="w pjb">
+        <h3>顾客评价（<span>0</span>）</h3>
+        <div></div>
+        <button value="pj" class="pjan"><img src="../img/pj.jpg"/>我要评价</button>
+    </div>
+    <h5 class="w"><img src="../img/fw.jpg"/> 售后服务 ▼</h5>
+    <div class="foter w"></div>
+    <ul class="zj">
+        <li><span>最近浏览 DETAILS</span></li>
+    </ul>
+    <div class="pjtext">
+        <p>商品评价：</p>
+        <textarea rows="10" cols="60" style="resize: none;"></textarea>
+        <button class="l left">提交</button>
+        <button class="l">取消</button>
+    </div>
 </div>
 <!---------------bottom--------------------->
 <div id="bottom">
-	<div class="w">
-		<div class="top">
-			<img class="l" src="../img/botm1.jpg"/>
-			<p class="l"><span>100%</span>正品品牌</p  class="l">
-			<img class="l" src="../img/botm2.jpg"/>
-			<p class="l"><span>7天</span>无理由退换货</p class="l">
-			<img class="l" src="../img/botm3.jpg"/>
-			<p class="l"><span>便捷</span>在线客服</p class="l">
-			<input class="r" type="text" placeholder="订阅我们的邮件" />	
-			<img class="pa" src="../img/botm6.jpg"/>
-		</div>
-		<ul class="l">
-			<li class="fir">新手指南</li>
-			<li><a href="#">注册登录</a></li>
-			<li><a href="#">选购商品</a></li>
-			<li><a href="#">订单支付</a></li>
-			<li><a href="#">收货退款</a></li>
-		</ul>
-		<ul class="l">
-			<li class="fir">会员中心</li>
-			<li><a href="#">有货币</a></li>
-			<li><a href="#">会员制度</a></li>
-			<li><a href="#">账户管理</a></li>
-			<li><a href="#">密码管理</a></li>
-		</ul>
-		<ul class="l">
-			<li class="fir">购物指南</li>
-			<li><a href="#">全球购选区</a></li>
-			<li><a href="#">尺码选择</a></li>
-			<li><a href="#">发票</a></li>
-			<li><a href="#">商品咨询</a></li>
-		</ul>
-		<ul class="l">
-			<li class="fir">支付方式</li>
-			<li><a href="#">在线支付</a></li>
-			<li><a href="#">货到付款</a></li>
-			<li><a href="#">优惠券</a></li>
-			<li><a href="#">有货币支付</a></li>
-		</ul>
-		<ul class="l">
-			<li class="fir">配送方式</li>
-			<li><a href="#">配送时间</a></li>
-			<li><a href="#">配送范围</a></li>
-			<li><a href="#">顺丰速运</a></li>
-			<li><a href="#">商品验收与签收</a></li>
-		</ul>
-		<ul class="l">
-			<li class="fir">售后服务</li>
-			<li><a href="#">退换货政策</a></li>
-			<li><a href="#">退换货流程</a></li>
-			<li><a href="#">退款方式与时效</a></li>
-			<li><a href="#">投诉与建议</a></li>
-		</ul>
-		<ul class="r">
-			<li class="fir">APP常见问题</li>
-			<li><a href="#">iPhone版</a></li>
-			<li><a href="#">Android版</a></li>
-			<li><a href="#">WAP版</a></li>
-			<li><a href="#">IPad版</a></li>
-		</ul>
-		<img class="l" src="../img/botm4.png" />
-		<img class="l" src="../img/botm5.png" />
-		<ol class="l">
-			<li class="l"><a href="#">返回首页</a></li>
-			<li class="l"><a href="#">YOHO!BUY有货</a></li>
-			<li class="l"><a href="#">新力传媒</a></li>
-			<li class="l"><a href="#">联系我们</a></li>
-			<li class="l"><a href="#">商家入驻</a></li>
-			<li class="l"><a href="#">隐私条款</a></li>
-			<li class="l last"><a href="#">友情链接</a></li>
-		</ol>
-		<p class="l"> CopyRight © 2007-2016 南京新与力文化传播有限公司
-			<a class="rbg6" href="http://www.miibeian.gov.cn/" target="_blank">苏ICP备09011225号</a>
-			NewPower Co. 版权所有 经营许可证编号：苏B2-20120395 
-		</p>	
-	</div>
+    <div class="w">
+        <div class="top">
+            <img class="l" src="../img/botm1.jpg"/>
+            <p class="l"><span>100%</span>正品品牌</p>
+            <img class="l" src="../img/botm2.jpg"/>
+            <p class="l"><span>7天</span>无理由退换货</p>
+            <img class="l" src="../img/botm3.jpg"/>
+            <p class="l"><span>便捷</span>在线客服</p>
+            <input class="r" type="text" placeholder="订阅我们的邮件"/>
+            <img class="pa" src="../img/botm6.jpg"/>
+        </div>
+        <ul class="l">
+            <li class="fir">新手指南</li>
+            <li><a href="#">注册登录</a></li>
+            <li><a href="#">选购商品</a></li>
+            <li><a href="#">订单支付</a></li>
+            <li><a href="#">收货退款</a></li>
+        </ul>
+        <ul class="l">
+            <li class="fir">会员中心</li>
+            <li><a href="#">有货币</a></li>
+            <li><a href="#">会员制度</a></li>
+            <li><a href="#">账户管理</a></li>
+            <li><a href="#">密码管理</a></li>
+        </ul>
+        <ul class="l">
+            <li class="fir">购物指南</li>
+            <li><a href="#">全球购选区</a></li>
+            <li><a href="#">尺码选择</a></li>
+            <li><a href="#">发票</a></li>
+            <li><a href="#">商品咨询</a></li>
+        </ul>
+        <ul class="l">
+            <li class="fir">支付方式</li>
+            <li><a href="#">在线支付</a></li>
+            <li><a href="#">货到付款</a></li>
+            <li><a href="#">优惠券</a></li>
+            <li><a href="#">有货币支付</a></li>
+        </ul>
+        <ul class="l">
+            <li class="fir">配送方式</li>
+            <li><a href="#">配送时间</a></li>
+            <li><a href="#">配送范围</a></li>
+            <li><a href="#">顺丰速运</a></li>
+            <li><a href="#">商品验收与签收</a></li>
+        </ul>
+        <ul class="l">
+            <li class="fir">售后服务</li>
+            <li><a href="#">退换货政策</a></li>
+            <li><a href="#">退换货流程</a></li>
+            <li><a href="#">退款方式与时效</a></li>
+            <li><a href="#">投诉与建议</a></li>
+        </ul>
+        <ul class="r">
+            <li class="fir">APP常见问题</li>
+            <li><a href="#">iPhone版</a></li>
+            <li><a href="#">Android版</a></li>
+            <li><a href="#">WAP版</a></li>
+            <li><a href="#">IPad版</a></li>
+        </ul>
+        <img class="l" src="../img/botm4.png"/>
+        <img class="l" src="../img/botm5.png"/>
+        <ol class="l">
+            <li class="l"><a href="#">返回首页</a></li>
+            <li class="l"><a href="#">YOHO!BUY有货</a></li>
+            <li class="l"><a href="#">新力传媒</a></li>
+            <li class="l"><a href="#">联系我们</a></li>
+            <li class="l"><a href="#">商家入驻</a></li>
+            <li class="l"><a href="#">隐私条款</a></li>
+            <li class="l last"><a href="#">友情链接</a></li>
+        </ol>
+        <p class="l"> CopyRight © 2007-2016 南京新与力文化传播有限公司
+            <a class="rbg6" href="http://www.miibeian.gov.cn/" target="_blank">苏ICP备09011225号</a>
+            NewPower Co. 版权所有 经营许可证编号：苏B2-20120395
+        </p>
+    </div>
 </div>
 </body>
 </html>

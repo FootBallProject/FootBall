@@ -1,49 +1,244 @@
-body,ul,h2,input,a,ol,p,li,table,th,td,tr{padding: 0;margin: 0;}
-ul,table,td,tr{list-style: none;}
-img{display: block;}
-body{font-family: "微软雅黑";font-size: 14px;}
+body, ul, h2, input, a, ol, p, li, table, th, td, tr {
+    padding: 0;
+    margin: 0;
+}
 
-a{text-decoration: none;}
+ul, table, td, tr {
+    list-style: none;
+}
 
-.w{width: 1150px;margin: 0 auto;}
-.l{float: left;}
-.r{float: right;}
+img {
+    display: block;
+}
 
-#header{border-bottom: 2px solid #000;height: 66px;}
-#header>.w>a img{margin-left: 80px;margin-top: 13px;}
-#header>.w>ul.r>li{ padding: 10px;margin-top: 13px;}
-#header>.w>ul.r>li img{margin-top: 3px;margin-right: 5px;}
-#header>.w>ul.r>li a{color: #000;}
-#header>.w>ul.r>li.d{padding: 0;overflow: hidden;}
-#header>.w>ul.r>li.d>a{padding:10px;}
-#header>.w>ul.r>li.d:hover>a{background: #ccc;}
-#header>.w .more{position: absolute;top:50px;right:429px;opacity: 0;display: none;}
-#header>.w .more li{width: 84px;height: 39px;text-align: center;line-height: 39px;background: #ccc;border-top: 1px solid #bbb;}
+body {
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.w {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+#header {
+    border-bottom: 2px solid #000;
+    height: 66px;
+}
+
+#header > .w > a img {
+    margin-left: 80px;
+    margin-top: 13px;
+}
+
+#header > .w > ul.r > li {
+    padding: 10px;
+    margin-top: 13px;
+}
+
+#header > .w > ul.r > li img {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+#header > .w > ul.r > li a {
+    color: #000;
+}
+
+#header > .w > ul.r > li.d {
+    padding: 0;
+    overflow: hidden;
+}
+
+#header > .w > ul.r > li.d > a {
+    padding: 10px;
+}
+
+#header > .w > ul.r > li.d:hover > a {
+    background: #ccc;
+}
+
+#header > .w .more {
+    position: absolute;
+    top: 50px;
+    right: 429px;
+    opacity: 0;
+    display: none;
+}
+
+#header > .w .more li {
+    width: 84px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    background: #ccc;
+    border-top: 1px solid #bbb;
+}
+
 /*-----------------cart--------------------*/
-#cart>img{ margin-top: 50px;margin-bottom: 10px;}
-#cart>table{border-collapse: collapse;}
-#cart>table th{background: #000;line-height: 30px;color: #fff;border: 0;}
-#cart>table td{border:1px solid #ccc;text-align: center;padding: 5px;}
-#cart>table td input{margin-top:45px;margin-right: 10px ;} 
-#cart>div.kong{height: 300px;background: url(../img/carts/cart_empty.gif) no-repeat 250px 100px;border: 1px solid #ccc;}
-#cart>div.kong a{display: block;width: 100px;height: 30px;border: 1px solid #ccc;margin-top: 140px;text-align: center;line-height: 30px;background: #E90150;color: #fff;}
-#cart>div.jiesuan{height: 20px;background: #e1e1e1;margin-top: 20px;line-height: 20px;border: 1px solid #ccc;margin-bottom: 30px;padding: 20px;width: 1110px;}
-#cart>button{width: 80px;height: 25px;margin-bottom: 50px;outline: none;border: 0;cursor: pointer;}
+#cart > img {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#cart > table {
+    border-collapse: collapse;
+}
+
+#cart > table th {
+    background: #000;
+    line-height: 30px;
+    color: #fff;
+    border: 0;
+}
+
+#cart > table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 5px;
+}
+
+#cart > table td input {
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+#cart > div.kong {
+    height: 300px;
+    background: url(../img/carts/cart_empty.gif) no-repeat 250px 100px;
+    border: 1px solid #ccc;
+}
+
+#cart > div.kong a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin-top: 140px;
+    text-align: center;
+    line-height: 30px;
+    background: #E90150;
+    color: #fff;
+}
+
+#cart > div.jiesuan {
+    height: 20px;
+    background: #e1e1e1;
+    margin-top: 20px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 1110px;
+}
+
+#cart > button {
+    width: 80px;
+    height: 25px;
+    margin-bottom: 50px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
 /*-----------------bottom--------------------*/
-#bottom{height: 295px;background: #000; clear: both;}
-#bottom .w .top{height: 64px;line-height: 64px;color: #fff; border-bottom: 1px solid #262626;position: relative;}
-#bottom .w .top p{margin-right: 60px;}
-#bottom .w .top p span{color: #f00;}
-#bottom .w .top img{margin-top: 20px;margin-right: 10px;}
-#bottom .w .top input{width: 238px;height: 32px;border: 1px solid #262626; background: #000;color: #262626;padding-left: 10px;margin-top: 15px;outline: none;}
-#bottom .w .top img.pa{position: absolute;right: 0;top:5px ;}
-#bottom .w ul{height: 144px;padding-top: 20px;}
-#bottom .w a{color: #666;}
-#bottom .w ul.l{width: 177px}
-#bottom .w ul li a:hover{text-decoration: underline;}
-#bottom .w ul li{line-height: 24px;}
-#bottom .w ul li.fir{color: #fff;}
-#bottom .w ol{margin-left: 20px;overflow: hidden;}
-#bottom .w ol li a{color: #666; padding: 0 10px; border-right: 1px solid #666;}
-#bottom .w ol li.last a{border-right: 0;}
-#bottom .w p{color: #666; margin-left:30px ;}
+#bottom {
+    height: 295px;
+    background: #000;
+    clear: both;
+}
+
+#bottom .w .top {
+    height: 64px;
+    line-height: 64px;
+    color: #fff;
+    border-bottom: 1px solid #262626;
+    position: relative;
+}
+
+#bottom .w .top p {
+    margin-right: 60px;
+}
+
+#bottom .w .top p span {
+    color: #f00;
+}
+
+#bottom .w .top img {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#bottom .w .top input {
+    width: 238px;
+    height: 32px;
+    border: 1px solid #262626;
+    background: #000;
+    color: #262626;
+    padding-left: 10px;
+    margin-top: 15px;
+    outline: none;
+}
+
+#bottom .w .top img.pa {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+#bottom .w ul {
+    height: 144px;
+    padding-top: 20px;
+}
+
+#bottom .w a {
+    color: #666;
+}
+
+#bottom .w ul.l {
+    width: 177px
+}
+
+#bottom .w ul li a:hover {
+    text-decoration: underline;
+}
+
+#bottom .w ul li {
+    line-height: 24px;
+}
+
+#bottom .w ul li.fir {
+    color: #fff;
+}
+
+#bottom .w ol {
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+#bottom .w ol li a {
+    color: #666;
+    padding: 0 10px;
+    border-right: 1px solid #666;
+}
+
+#bottom .w ol li.last a {
+    border-right: 0;
+}
+
+#bottom .w p {
+    color: #666;
+    margin-left: 30px;
+}
